@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**                                                                             
-* main - Entry point                                                        
-* Description: 'Using printf'                                   
+/**
+* main - Entry point
+* Description: 'Using printf'
 * Return: Always 0 (Success)
 */
 int main(void)
