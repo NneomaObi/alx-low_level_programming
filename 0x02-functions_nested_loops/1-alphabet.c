@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-*Print alphabet - lowercase
-*
+* Print_alphabet - Description
+* Description: prints alphabet in lowercase
 * Return - Always 0
 */
 
