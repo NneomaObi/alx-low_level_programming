@@ -2,7 +2,7 @@
 /**
 * print_sign
 * @n: An input numb
-* function prints the sign of a number
+* Description: function prints the sign of a number
 * Return: 1 if number is positive, o if number is 0, or
 * -1 if number is negative
 */
@@ -22,7 +22,7 @@ int print_sign(int n)
 		_putchar('0');
 	}
 	else
-       	{
+	{
 		sign = -1;
 		_putchar('-');
 	}
