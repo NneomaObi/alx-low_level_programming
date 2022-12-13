@@ -2,14 +2,19 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* main - check the code
+*Print alphabet - lowercase
 *
 * Return - Always 0
 */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
+		_putchar(x);
+
+	_putchar('\n'):
 
 	return (0);
 }
