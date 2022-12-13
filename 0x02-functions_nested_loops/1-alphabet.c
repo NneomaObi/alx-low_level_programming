@@ -9,14 +9,7 @@
 
 int main(void)
 {
-	char letters;
-
-	for (letters = 'a'; letters <= 'z'; letters++)
-	{
-		_putchar(letters);
-	}
-
-	_putchar('\n');
+	print_alphabet();
 
 	return (0);
 }
