@@ -12,8 +12,11 @@ int main(void)
 	char letters;
 
 	for (letters = 'a'; letters <= 'z'; letters++)
+	{
 		_putchar(letters);
-		_putchar('\n');
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
