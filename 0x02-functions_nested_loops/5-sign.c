@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_sign
+* print_sign - Description below
 * @n: An input numb
 * Description: function prints the sign of a number
 * Return: 1 if number is positive, o if number is 0, or
