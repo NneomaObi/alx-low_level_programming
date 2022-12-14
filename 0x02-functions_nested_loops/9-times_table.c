@@ -8,27 +8,35 @@
 
 void times_table(void)
 {
-	int iRow, iColumn, iTableValue;
-
-	int n = 9;
-
-	for (iColumn = 1; iColumn <= n; iColumn++)
+	int i, j, n;
+	
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(iColumn);
-
-		for (iRow = 1; iRow <= n; iRow++)
+		for (j = 0; j <= 9; j++)
 		{
-			_putchar('\n');
-			_putchar(iRow);
-
-			for (iColumn = 1; iColumn <= n; iColumn++)
+			n = i * j;
+			
+			if ((n / 10) == 0)
 			{
-				iTableValue = iRow * iColumn;
-				_putchar(iTableValue);
+				if (j != 0)
+					_putchar(' ');
+				_putchar(n + '0');
+
+				if (j == 9)	
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+			else 
+			{
+				putchar((n / 10) + '0');
+				_putchar((n % 10) + '0');
+				if (j == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-
 		_putchar('\n');
 	}
-
 }
