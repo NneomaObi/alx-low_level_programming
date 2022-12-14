@@ -18,6 +18,7 @@ void times_table(void)
 
 		for (iRow = 1; iRow <= n; iRow++)
 		{
+			_putchar('\n')
 			_putchar(iRow);
 
 			for (iColumn = 1; iColumn <= n; iColumn++)
@@ -26,7 +27,8 @@ void times_table(void)
 				_putchar(iTableValue);
 			}
 		}
+
+		_putchar('\n');
 	}
 
-	return (0);
 }
