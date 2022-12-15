@@ -10,7 +10,7 @@ int _isdigit(int c)
 	char x;
 	int checkdigit;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	for (x = '0'; x <= '9'; x++)
 	{
 		if (x == c)
 		{
