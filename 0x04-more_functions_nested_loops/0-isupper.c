@@ -3,8 +3,7 @@
 /**
 * _isupper - Function that checks for uppercase letters
 * @c: An input character
-* Returns 1 if c is uppercase
-* Returns 0 otherwise
+* Return: 1 if c is uppercase or 0 otherwise
 */
 int _isupper(int c)
 {
@@ -19,5 +18,6 @@ int _isupper(int c)
 			break;
 		}
 	}
+
 	return (isupper);
 }
