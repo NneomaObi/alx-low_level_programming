@@ -8,10 +8,10 @@ int _isdigit(int c)
 {
 	char isdigit;
 	int checkdigit;
-	
-	for (isdigit = '0'; isdigit <= '9'; isdigit++)
+
+	for (isdigit = 'A'; isdigit <= 'Z'; isdigit++)
 	{
-		if (c == isdigit)
+		if (isdigit == c)
 		{
 			checkdigit = 1;
 			break;
