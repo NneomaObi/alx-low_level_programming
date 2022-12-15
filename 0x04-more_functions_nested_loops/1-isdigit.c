@@ -8,7 +8,7 @@
 int _isdigit(int c)
 {
 	char x;
-	int checkdigit =0;
+	int checkdigit = 0;
 
 	for (x = '0'; x <= '9'; x++)
 	{
