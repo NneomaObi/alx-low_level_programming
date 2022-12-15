@@ -7,12 +7,12 @@
 */
 int _isdigit(int c)
 {
-	char isdigit;
+	char x;
 	int checkdigit;
 
-	for (isdigit = 'A'; isdigit <= 'Z'; isdigit++)
+	for (x = 'A'; x <= 'Z'; x++)
 	{
-		if (isdigit == c)
+		if (x == c)
 		{
 			checkdigit = 1;
 			break;
