@@ -18,8 +18,7 @@ void print_triangle(int size)
 				if (j < n)
 					_putchar(' ');
 				else 
-					_putchar('#');
-			}
+					_putchar('#');			}
 			n--;
 			_putchar('\n');
 		}
