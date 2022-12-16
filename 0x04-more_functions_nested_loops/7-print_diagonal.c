@@ -5,6 +5,7 @@
 * @n: An input integer
 * Return: Always 0
 */
+
 void print_diagonal(int n)
 {
 	int i, x;
@@ -18,7 +19,6 @@ void print_diagonal(int n)
 
 		_putchar(92);
 		_putchar('\n');
-
 		}
 	}
 	else 
