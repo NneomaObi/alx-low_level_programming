@@ -6,7 +6,7 @@
 * @a: an input array
 * @n: an input integer
 */
-void print_array(int *a, int *n)
+void print_array(int *a, int n)
 {
 	int i = 0;
 
