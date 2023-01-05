@@ -1,7 +1,7 @@
 #include "main.h"
 int is_divisible(int num, int div);
 /**
-* s_prime_number - Afunction that checks if a number is prime.
+* is_prime_number - A function that checks if a number is prime.
 * @n: an input integer
 * Return: 1 if n is prime or  0 in otherwise
 */
