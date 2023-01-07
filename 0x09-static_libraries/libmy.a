@@ -1,0 +1,2 @@
+gcc -c putchar.c islower.c isalpha.c abs.c isupper.c isdigit.c strlen.c puts.c strcpy.c atoi.c strcat.c strncat.c strncpy.c strcmp.c memset.c memcpy.c strchr.c strspn.c strpbrk.c strstr.c
+ar rcs libmy.a putchar.o islower.o isalpha.o abs.o isupper.o isdigit.o strlen.o puts.o strcpy.o atoi.o strcat.o strncat.o strncpy.o strcmp.o memset.o memcpy.o strchr.o strspn.o strpbrk.o strstr.o
